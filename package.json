@@ -10,7 +10,6 @@
     "scss": "node-sass -o css/ css/",
     "lite": "lite-server",
     "prepare-all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
-
     "clean": "rimraf dist",
     "copyimages": "mkdirp dist/img && ncp img dist/img && copyfiles *.png dist",
     "copyfonts": "copyfiles -f webfonts/* dist/webfonts",
@@ -20,6 +19,7 @@
   "author": "Gustavo Borges",
   "license": "ISC",
   "devDependencies": {
+    "copyfiles": "^2.2.0",
     "cssmin": "^0.4.3",
     "htmlmin": "0.0.7",
     "lite-server": "^2.5.4",
