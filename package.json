@@ -1,0 +1,22 @@
+{
+  "name": "react-12",
+  "version": "1.0.0",
+  "description": "Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5** e **CSS3**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run prepare-all",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "scss": "node-sass -o css/ css/",
+    "lite": "lite-server",
+    "prepare-all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+  },
+  "author": "Gustavo Borges",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.13.1",
+    "onchange": "^6.1.0",
+    "parallelshell": "^3.0.1"
+  }
+}
