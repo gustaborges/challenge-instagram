@@ -1,8 +1,14 @@
 # Mobile First: Instagram
   
 ## Objetivo:
-Desenvolvido uma versão **mobile first** do Instagram utilizando **HTML5** e **CSS3**, **SASS** e **BEM**.
+Desenvolvido uma versão **mobile first** do Instagram, utilizando:
+<ul>
+  <li><strong>HTML5 / CSS3</strong></li>
+  <li><strong>SASS</strong></li>
+  <li><strong>BEM</strong></li>
+  <li><strong>npm scripts</strong> para automação de build</li>
+</ul>
 
-> **Preview:**
+## Preview:
 Você pode testar o website neste link:
-> [Instagram](https://gustaborges-instagram.netlify.app/#)
+[Netlify Instagram](https://gustaborges-instagram.netlify.app/#)
